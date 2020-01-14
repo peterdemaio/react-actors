@@ -1,12 +1,17 @@
 import React, { Component} from 'react';
+import './Contact.css'
 
 class Contact extends Component {
     render() {
         return (
-            <div>
+            <div className='contact'>
+                <input placeholder="First Name"></input>
+                <input placeholder="Last Name"></input>
+                <input placeholder="Best Impression"></input>
+                <button>Join Us!</button>
                 <h2>Contact</h2>
-                <p>867-5309</p>
-                <p>Jenny@gmail.com</p>
+                <p>1-800-WE-REACT</p>
+                <p>info@ReactActors.com</p>
             </div>
         )    
     }
